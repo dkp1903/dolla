@@ -1,6 +1,13 @@
 import React from 'react'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu } from './NavbarElements'
-import { Link as LinkRouter } from 'react-router-dom'
+import { FaBars } from 'react-icons/fa'
+import { 
+  Nav, 
+  NavbarContainer, 
+  NavLogo, 
+  NavItem, 
+  NavLinks, 
+  MobileIcon, 
+  NavMenu } from './NavbarElements'
 
 const Navbar = () => {
     return (
@@ -8,7 +15,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            Cashier
+            Dolla
           </NavLogo>
           <MobileIcon>
               <FaBars />
